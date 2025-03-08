@@ -8,6 +8,11 @@ window.onload = function () {
     "product-image_lenses"
   )[0];
 
+  const buyBtn = document.querySelector(".buy");
+  const main = document.querySelector("main");
+  const checkoutPageSection = document.querySelector(".checkout-page");
+  console.log("checkoutPageSection", checkoutPageSection);
+
   async function fetchData() {
     const response = await fetch("./data.json");
     const data = await response.json();
@@ -120,7 +125,77 @@ window.onload = function () {
 
     let sunglassesNew = "";
 
-    document.body.addEventListener("click", function (event) {
+    buyBtn.addEventListener("click", function () {
+      if (!sunglassesNew) {
+        sunglassesNew = sunglasses;
+      }
+      console.log("buy button is clicked!", sunglassesNew);
+
+      const {
+        name: buyModelName,
+        price: buyModelPrice,
+        cssClass: buyModelClass,
+      } = sunglassesNew.model;
+      const {
+        color: buyLenseColor,
+        price: buyLensePrice,
+        cssClass: buyLenseClass,
+      } = sunglassesNew.lenses;
+      const {
+        color: buyFrameColor,
+        price: buyFramePrice,
+        cssClass: buyFrameClass,
+      } = sunglassesNew.frame;
+
+      const checkoutPage = `
+      <div class="flex product">
+        <div id="productImage" class="product-image ${buyModelClass}">
+          <div class="product-image_frame ${buyFrameClass}"></div>
+          <div class="product-image_lenses ${buyLenseClass}"></div>
+        </div>
+        <div class="product-info">
+          <h2>${buyModelName}</h2>
+          <p>Custom: ${buyLenseColor} lenses, ${buyFrameColor} frame</p>
+          <h2>$${buyModelPrice + buyLensePrice + buyFramePrice}</h2>
+        </div>
+      </div>
+
+      <div class="flex-column">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" size="30" required />
+
+
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required/>
+
+        <label for="cc">Card number</label>
+        <input type="number" id="cc" name="cc" min="10000000" max="999999999" required/>
+
+        <div class="flex stretch">
+
+          <div class="flex-column">
+            <label for="cc-exp">Expiration date (MM/YY)</label>
+            <input type="number" id="cc-exp" name="cc-exp" min="00125" max="01290" required/>
+          </div>
+          <div class="flex-column">
+            <label for="cvc">CVC</label>
+            <input type="number" id="cvc" name="cvc" min="000" max="999" required/>
+          </div>
+        </div>
+      </div>
+
+      <button>PAY $${buyModelPrice + buyLensePrice + buyFramePrice}</button>
+      
+      `;
+
+      checkoutPageSection.innerHTML = checkoutPage;
+
+      // remove all content in main, add class to remove width/height
+      main.innerHTML = "";
+      main.classList.add("checkout-page-main");
+    });
+
+    main.addEventListener("click", function (event) {
       const clickedItem = event.target;
 
       console.log("clickedItem", clickedItem);

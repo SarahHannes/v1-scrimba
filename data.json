@@ -40,6 +40,11 @@
         "color": "iridescent",
         "price": 30,
         "cssClass": "color-iridescent"
+      },
+      {
+        "color": "pink",
+        "price": 100,
+        "cssClass": "color-pink"
       }
     ],
     "frames": [
@@ -57,6 +62,16 @@
         "color": "rose",
         "price": 0,
         "cssClass": "color-rose"
+      },
+      {
+        "color": "transparent",
+        "price": 0,
+        "cssClass": "color-transparent"
+      },
+      {
+        "color": "green-tortoise",
+        "price": 100,
+        "cssClass": "color-green-tortoise"
       }
     ]
   }
