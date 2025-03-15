@@ -25,3 +25,9 @@
 git push origin && git subtree push --prefix <sub-directory> origin gh-pages
 ```
 
+
+## Credits
+1. Courses links are included in its repository folder.
+2. Preview HTML directly in Github: https://html-preview.github.io/
+3. Markdown table generator: https://tabletomarkdown.com/generate-markdown-table/
+4. Generate table of contents in ipynb: https://github.com/ozlerhakan/toci
