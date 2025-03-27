@@ -16,7 +16,7 @@
 # Projects
 | Project   | Repo                                                                                                                                         | Live Site                                         |
 | --------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
-| ShadeTown | [https://github.com/SarahHannes/v1-scrimba/tree/main/ES6/solo-project](https://github.com/SarahHannes/v1-scrimba/tree/main/ES6/solo-project) | [Site](https://sarahhannes.github.io/v1-scrimba/) |
+| ShadeTown | [Repo](https://github.com/SarahHannes/shade-town) | [Site](https://sarahhannes.github.io/shade-town/) |
 
 
 
