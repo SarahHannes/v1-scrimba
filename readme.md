@@ -7,7 +7,8 @@
 | CSS Variables    | [https://github.com/SarahHannes/v1-scrimba/tree/main/cssvariables](https://github.com/SarahHannes/v1-scrimba/tree/main/cssvariables) | [HTML](https://html-preview.github.io/?url=https://github.com/SarahHannes/v1-scrimba/blob/main/cssvariables/notes.html) |
 | ES6              | [https://github.com/SarahHannes/v1-scrimba/tree/main/ES6](https://github.com/SarahHannes/v1-scrimba/tree/main/ES6)                   | [HTML](https://html-preview.github.io/?url=https://github.com/SarahHannes/v1-scrimba/blob/main/ES6/notes.html)          |
 | D3               | [https://github.com/SarahHannes/v1-scrimba/tree/main/d3](https://github.com/SarahHannes/v1-scrimba/tree/main/d3)                     | [HTML](https://html-preview.github.io/?url=https://github.com/SarahHannes/v1-scrimba/blob/main/d3/notes.html)           |
-| React            | [https://github.com/SarahHannes/v1-scrimba/tree/main/react](https://github.com/SarahHannes/v1-scrimba/tree/main/react)               |                                                                                     |
+| React Part 1            | [https://github.com/SarahHannes/v1-scrimba/tree/main/react](https://github.com/SarahHannes/v1-scrimba/tree/main/react/notes-1.ipynb)               |  [HTML](https://html-preview.github.io/?url=https://github.com/SarahHannes/v1-scrimba/blob/main/react/notes-1.html)                                                                                            |
+| React Part 2            | [https://github.com/SarahHannes/v1-scrimba/tree/main/react](https://github.com/SarahHannes/v1-scrimba/tree/main/react/notes-2.ipynb)               |  [HTML](https://html-preview.github.io/?url=https://github.com/SarahHannes/v1-scrimba/blob/main/react/notes-2.html)                                                                                            |
 | Bootstrap        | [https://github.com/SarahHannes/v1-scrimba/tree/main/bootstrap](https://github.com/SarahHannes/v1-scrimba/tree/main/react)           |                                                                                     |
 |                  |                                                                                                                                      |                                                                                     |
 |                  |                                                                                                                                      |                                                                                     |
@@ -17,6 +18,8 @@
 | Project   | Repo                                                                                                                                         | Live Site                                         |
 | --------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
 | ShadeTown | [Repo](https://github.com/SarahHannes/shade-town) | [Site](https://sarahhannes.github.io/shade-town/) |
+| Chef AI | [Repo](https://github.com/SarahHannes/chef-ai) | [Site](https://sarahhannes.github.io/chef-ai/) |
+
 
 
 
